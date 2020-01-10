@@ -1,3 +1,7 @@
+// dotenv file to contain db configuration
+
+require("dotenv").config();
+
 const mysql = require("mysql");
 
 // Established connection with database
