@@ -72,6 +72,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-[1] Adapted from instructions found here: <a href="https://blog.teamtreehouse.com/install-node-js-npm-mac"target="_blank">https://blog.teamtreehouse.com/install-node-js-npm-mac</a>
+[1] Adapted from instructions found here: <a href="https://blog.teamtreehouse.com/install-node-js-npm-mac" target="_blank">https://blog.teamtreehouse.com/install-node-js-npm-mac</a>
 
 [2] Adapted from instructions found here: <a href="https://blog.teamtreehouse.com/install-node-js-npm-windows" target="_blank">https://blog.teamtreehouse.com/install-node-js-npm-windows</a>
