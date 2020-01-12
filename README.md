@@ -43,4 +43,35 @@ Before you can install Node, you'll need to install two other applications. Fort
 >
 > * Via Terminal `xcode-select --install`
 >
-> * **Homebrew**
+> * **Homebrew** Homebrew is a package manager for the Mac - it makes installing most open source software(like Node) as simple as writing `brew install node`
+> * To install Homebrew just open the Terminal and type `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`. You'll see messages in the Terminal explaining what you need to do to complete the installation process. Now type `brew install node`.
+
+**Windows Installation Steps**[2]
+
+> - Download the Windows installer from the [Node.js&copy;](http://nodejs.org/) web site.
+> - Run the installer (the .msi file you downloaded in the previous step.)
+>
+> * Follow the prompts in the installer (Accept the license agreement, click the NEXT button a bunch of times and accept the default installation settings).
+> * Restart your computer. You won’t be able to run Node.js until you restart your computer.
+
+**MySQL Workbench**
+
+- It is recommended that you install MySQL Workbench v5.7 as it seems to be the most stable for all systems.
+
+#### Windows
+
+- Go to https://dev.mysql.com/downloads/windows/installer/5.7.html and download the version that matches your architecture.
+
+#### MacOS
+
+- Follow the instructions found here: [MacOS MySQL Workbench Installation](public/assets/readme/mysqlinstall_mac.md).
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+[1] Adapted from instructions found here: <a href="https://blog.teamtreehouse.com/install-node-js-npm-mac"target="_blank">https://blog.teamtreehouse.com/install-node-js-npm-mac</a>
+
+[2] Adapted from instructions found here: <a href="https://blog.teamtreehouse.com/install-node-js-npm-windows" target="_blank">https://blog.teamtreehouse.com/install-node-js-npm-windows</a>
