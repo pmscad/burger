@@ -16,12 +16,12 @@ router.get("/", function(req, res) {
   });
 });
 
-// router.post("/api/burgers", function(req, res) {
-//   console.log(req.body.burger_name);
-//   burgers.insertOne(req.body.burger_name).then(function(result) {
-//     //   Send back the ID of the new route
-//     res.redirect("/");
-//   });
-// });
+router.post("/api/burgers", function(req, res) {
+  console.log(req.body.burger_name);
+  burger.insertOne(req.body.burger_name).then(function(data) {
+    //   Send back the ID of the new route
+    res.redirect("/");
+  });
+});
 
 module.exports = router;
